@@ -1,0 +1,12 @@
+<h1>Previsão:</h1>
+<!--<ul>-->
+<!--	<li>Lojas: {{session['loja']}}</li>-->
+<!--</ul>-->
+<!--<h2>A venda prevista é: {{results}}</h2>-->
+<body>
+
+{% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+</body>
