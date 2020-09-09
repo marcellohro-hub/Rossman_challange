@@ -1,6 +1,6 @@
 # Rossman_challange
 Este projeto tem como objetivo simular um desafio real pedido por uma empresa. Para isso utilizei como base os dados da loja Rossmann do desafio [kaggle](https://www.kaggle.com/c/rossmann-store-sales). 
-No final foi feito o deploy do modelo no Heroku;
+No final foi feito o deploy do modelo no [Heroku](https://rossmann1-model.herokuapp.com/);
 
 ## Contexto
 * Reunião mensal de resultados para definição de orçamento;
@@ -55,14 +55,24 @@ Os detalhes mais importantes do Pipeline estão no próprio notebook (como gráf
 9. TRADUCAO E INTERPRETACAO DO ERRO
 * Tradução do erro do modelo em desempenho para o negócio;
 * Apresentação de *best case scenario* e *worst case scenario*;
-10.0. PASSO 10 - DEPLOY MODEL TO PRODUCTION
+10. PASSO 10 - DEPLOY MODEL TO PRODUCTION
 * Treinamento do modelo utilizando todo o dado de treinamento. O modelo é salvo como pickle para deploy;
 * Construção de uma classe chamada Rossmann para deploy;
 * Apesar de não ser o principal objetivo, fiz a submissão no Kaggle com resultado de **0.18594 (RMS)**;
 * Deploy do modelo no Heroku;
 * Construção e teste da API em Flask no notebook;
 
+### Resultados
+
+| ![](https://github.com/marcellohro-hub/Rossman_challange/blob/master/img/Capture.JPG) | 
+|:--:| 
+| *Desempenho dos modelos* |
+
+| ![](https://github.com/marcellohro-hub/Rossman_challange/blob/master/img/whole_scenario.JPG) | 
+|:--:| 
+| *Previsão de vendas* |
+
 ## Front End da API
 
 Por último construí uma melhor Front End para a aplicação em flask, dessa forma mesmo quem não é da área técnica poderia acessar a previsão de vendas totais das lojas. Não sou especialista em flask e nem em HTML, o front end é bem minimalista.
-Link da API.
+[Link da API](https://rossmann1-model.herokuapp.com/).
